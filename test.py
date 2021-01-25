@@ -2,13 +2,17 @@
 import sys
 sys.path.append("/Workspace/Projects/stephanie.liu@databricks.com/demo")
 
-# COMMAND ---------------
+# COMMAND ----------
 
 import foo
 
-# COMMAND ---------------
+%sh pwd
+
+# COMMAND ----------
 
 from pathlib import Path
 
 print(Path("/Workspace/Projects/stephanie.liu@databricks.com/demo/data.csv").read_text())
+
+# COMMAND ----------
 
