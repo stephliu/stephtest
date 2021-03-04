@@ -1,4 +1,5 @@
 # Databricks notebook source
+## Databricks notebook source
 import sys
 sys.path.append("/Workspace/Projects/stephanie.liu@databricks.com/demo")
 
@@ -13,6 +14,3 @@ import foo
 from pathlib import Path
 
 print(Path("/Workspace/Projects/stephanie.liu@databricks.com/demo/data.csv").read_text())
-
-# COMMAND ----------
-
