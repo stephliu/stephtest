@@ -1,4 +1,3 @@
-# Databricks notebook source
 ## Databricks notebook source
 import sys
 sys.path.append("/Workspace/Projects/stephanie.liu@databricks.com/demo")
